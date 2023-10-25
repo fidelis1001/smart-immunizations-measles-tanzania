@@ -44,7 +44,7 @@ Description:  "Data elements for the IMMZ.C Register Client Data Dictionary."
     * ^code[+] = IMMZ.C#DE17
 * phone 1..1 string "Contact phone number" "Client's phone number"
   * ^code[+] = IMMZ.C#DE18
-* administrativeArea 0..1 CodeableConcept "Administrative area" "The name of the city/municipality/town/village of where the client lives"
+* patientPlaceResidence 0..1 CodeableConcept "Patient Place of Residence" "The name of the Region/district/ward/village-street of where the patient lives"
   * ^code[+] = IMMZ.C#DE19
 * healthWorker 1..1 boolean "Active health worker" "Is the client an active and participating health worker. This data element is used mainly for reporting and indicators purposes."
   * ^code[+] = IMMZ.C#DE20
