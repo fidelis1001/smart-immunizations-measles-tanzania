@@ -76,13 +76,13 @@ Usage: #definition
   * item[=]
     * code[+] = IMMZ.C#DE17
 
-* insert Question(phone, Client Phone number,string,true,false)
+* insert Question(phone, Patient Phone number,string,true,false)
 * item[=]
   * code[+] = IMMZ.C#DE18
   * code[+] = $LNC#42077-8 "Patient Phone number"
   * code[+] = $SCT#184103008 "Patient telephone number (observable entity)"
 
-* insert Question(organisationUnit, Organisation Unit,choice,false,false)
+* insert Question(patientPlaceResidence, Patient Place of Residence,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE19
   * code[+] = $LNC#56799-0 "Address"
