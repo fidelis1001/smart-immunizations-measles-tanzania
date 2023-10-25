@@ -38,6 +38,11 @@ Usage: #definition
     * code[+] = $LNC#45392-8 "First name"
     * code[+] = $SCT#184095009 "Patient forename (observable entity)"
 
+  * insert Question(middleName, Middle Name,string,false,false)
+  * item[=]
+    * code[+] = IMMZ.C#DE18
+    
+  
   * insert Question(familyName, Family name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C#DE4
