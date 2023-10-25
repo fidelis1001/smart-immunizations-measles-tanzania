@@ -40,7 +40,7 @@ Usage: #definition
 
   * insert Question(middleName, Middle Name,string,false,false)
   * item[=]
-    * code[+] = IMMZ.C#DE18
+    * code[+] = IMMZ.C#DE118
     
   
   * insert Question(familyName, Family name,string,false,false)
