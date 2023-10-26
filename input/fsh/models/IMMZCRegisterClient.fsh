@@ -20,7 +20,7 @@ Description:  "Data elements for the IMMZ.C Register Client Data Dictionary."
  * firstName 0..1 string "First name" "Client's first name or given name"
    * obeys IMMZ-C-name-1
    * ^code[+] = IMMZ.C#DE3
-* middleName 0..1 string "Middle Name" "Client's Middle Name"
+ * middleName 0..1 string "Middle Name" "Client's Middle Name"
    * obeys IMMZ-C-name-1
    * ^code[+] = IMMZ.C#DE118
  * familyName 0..1 string "Last name" "Client's family name or last name"
